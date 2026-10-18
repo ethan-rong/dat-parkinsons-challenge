@@ -1,4 +1,13 @@
-# DaT Parkinson's Challenge: 70th on the private leaderboard
+<p align="center">
+  <img src="assets/banner.svg" width="100%" alt="DaT Parkinson's Challenge: 65th on the private leaderboard.">
+</p>
+
+<p align="center">
+  <a href="https://www.drivendata.org/competitions/311/">Competition</a> ·
+  <a href="#approach">Approach</a> ·
+  <a href="#what-did-not-work">What did not work</a> ·
+  <a href="#reproduce">Reproduce</a>
+</p>
 
 Solution code for DrivenData's [DaT Parkinson's Challenge](https://www.drivendata.org/competitions/311/): binary classification of DaT-SPECT brain volumes (pathologic vs normal), scored by log loss, code-execution submissions (offline container, 1x A100, 3 h limit).
 
@@ -6,10 +15,9 @@ Built and submitted in one day (2026-09-16) on a MacBook with PyTorch MPS.
 
 ## Result
 
-| | log loss |
+| Private leaderboard | **65th** |
 |---|---|
-| Private leaderboard | **rank 70** |
-| Best public score (submission 1) | 0.2696 |
+| Best public log loss (submission 1) | 0.2696 |
 | Public top-3 line | 0.2263 |
 | Local 5-fold OOF of the shipped stack | 0.2585 |
 
